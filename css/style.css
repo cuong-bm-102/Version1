@@ -83,10 +83,6 @@ body {
 .content__item--brand {
     position: relative;
     height: 275px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .content__item--brand img {
