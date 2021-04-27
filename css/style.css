@@ -30,6 +30,7 @@ body {
     margin: 0 20px;
     border: none;
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 /* CONTENT ITEM PRICE*/
@@ -174,50 +175,49 @@ body {
 }
 /* CONTENT ITEM BUTTON*/
 
-.buytour {
+.btnbuytour {
     border: none;
     padding: 10px 25px;
     background-color: transparent;
     margin-top: 20px;
-    margin-bottom: 20px;
     width: 175px;
     height: 50px;
     font-size: 20px;
     transition: all 0.5s;
 }
 
-.buytour:focus {
+.btnbuytour:focus {
     outline: none;
 }
 
-.item__1 .buytour {
+.item__1 .btnbuytour {
     border: 1px solid #2196f7;
     color: #2196f7;
 }
 
-.item__1 .buytour:hover {
+.item__1 .btnbuytour:hover {
     color: white;
     background-color:#2196f7;
     cursor: pointer;
 }
 
-.item__2 .buytour {
+.item__2 .btnbuytour {
     border: 1px solid #6c136f;
     color: #6c136f;
 }
 
-.item__2 .buytour:hover {
+.item__2 .btnbuytour:hover {
     color: white;
     background-color:#6c136f;
     cursor: pointer;
 }
 
-.item__3 .buytour {
+.item__3 .btnbuytour {
     border: 1px solid #32ad1e;
     color: #32ad1e;
 }
 
-.item__3 .buytour:hover {
+.item__3 .btnbuytour:hover {
     color: white;
     background-color:#32ad1e;
     cursor: pointer;
