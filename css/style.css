@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;
     color: #505d6a;
     background-color: #cad3d3; 
 }
@@ -19,18 +19,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 115px 30px;
+    padding: 115px 0;
 }
 
 .content .content__item {
     width: 362px;
-    min-height: 770px;
     position: relative;
     background-color: white;
-    margin: 0 20px;
+    margin: 75px 20px 0 20px;
     border: none;
-    margin-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* CONTENT ITEM PRICE*/
@@ -38,8 +35,7 @@ body {
 .content__item--price {
     width: 7.625em;
     height: 7.625em;
-    padding: 20px;
-    margin-top: 25px;
+    padding: 30px;
     background-color: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -57,13 +53,12 @@ body {
 
 .content__item--price .price {
     margin: 0;
-    margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
 }
 
 .content__item--price .tour {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .item__1  .price {
@@ -88,18 +83,19 @@ body {
 .content__item--brand img {
     width: 100%;
     height: 100%;
+    filter: brightness(60%);
 }
 
 .content__item--brand .brand {
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 36px;
+    font-weight: 400;
     color: #f5f6f6;
     letter-spacing: 1.5px;
 }
 
 .content__item--brand .detail {
-    margin-top: 5px;
-    font-size: 10px;
+    margin-top: 10px;
+    font-size: 14px;
     color: #f5f6f6;
     letter-spacing: 1px;
 }
@@ -120,8 +116,6 @@ body {
     top: -2%;
     left: -2%;
     z-index: 10;
-    text-align: center;
-    align-items: center;
 }
 
 .item__2 .new {
@@ -139,31 +133,29 @@ body {
 
 .content__item--info {
     background-color: white;
-    height: 95px;
 }
 
 .info__title {
-    padding: 20px 20px;
+    padding: 23px 15px;
 }
 
 .info__title .title {
     margin: 0;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
+    color: #7b8a94;
+    font-weight: normal;
 }
 
 .info__title .description {
     font-size: 12px;
-}
-
-.info__list {
-    margin-bottom: 25px;
+    color: #99a9b5;
 }
 
 .text {
     margin: 0;
-    padding: 18px 0;
-    font-size: 13px;
+    padding: 15.5px 10px;
+    font-size: 16px;
+    color: #5f727f;
 }
 
 .text:nth-child(odd) {
@@ -171,13 +163,14 @@ body {
 }
 /* CONTENT ITEM BUTTON*/
 
+.buytour{
+    padding: 50px 97px;
+}
+
 .btnbuytour {
     border: none;
-    padding: 10px 25px;
+    padding: 12px 30px;
     background-color: transparent;
-    margin-top: 20px;
-    width: 175px;
-    height: 50px;
     font-size: 20px;
     transition: all 0.5s;
 }
